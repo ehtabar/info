@@ -2348,15 +2348,15 @@ input[type=submit]{
     background: #33aa65;
     border: 4px solid #33aa65;
 }
-gform_previous_button:{
+.gform_previous_button:{
     background: #fafafa;
     border: none;
 }
-gform_previous_button:hover{
+.gform_previous_button:hover{
     background: #eeeeee;
     border: 2px solid #e0e0e0;
 }
-gform_previous_button:active{
+.gform_previous_button:active{
     background: #e0e0e0;
     border: 2px solid #c1c1c1;
 }
@@ -2452,7 +2452,7 @@ display: none !important;
   display: inline-block; /*table-cell;*/
 }
 .h1bg{
-  background: url("../img/girl-with-father.jpg");
+  background: url("../wpimg/back-omr.jpg");
   background-size: cover;
   height: 500px;
   width: 100%
@@ -2513,6 +2513,10 @@ display: none !important;
 .h2info{
   font-size:20px
 }
+.h2info2{
+  font-size:20px;
+  padding-right:0px !important
+}
 .btn-warning{
     background-color: #ffad00;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
@@ -2530,10 +2534,9 @@ display: none !important;
     border:none;
 }
 
-button.accordion {
-    background-color: #dcecfd;
-    color: #174e51;
-    cursor: pointer;
+.accordion {
+    background-color: #8cc2f9;
+    color: #1f1f1f;
     padding: 18px;
     width: 100%;
     border: none;
@@ -2541,45 +2544,12 @@ button.accordion {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    border-radius:4px;
 }
-
-button.accordion.active, button.accordion:hover {
-    background-color: #8cc2f9;
-}
-
-div.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    box-shadow: 0 3px 3px rgba(0,0,0,.15);
-}
-
-div.panel.show {
-    display: block;
+.panel{
     direction: rtl;
 }
-#accordion1.panel-group {
-  margin-bottom: 90px;
-}
-.panel-heading {
-  position:relative;
-  padding:0;
-}
-.panel-title a {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 0%);
-  display: block;
-  font-size: 24px;
-  line-height: 30px;
-  padding: 10px 10px 10px 60px;
-  text-decoration: none;
-  font-weight:400;
-}
 
-.panel-title a.collapsed {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 0%);
-}
 .fifth-bg{
     background-color:#fff;
 }
@@ -2595,10 +2565,70 @@ div.panel.show {
 }
 .mazaya-omr{
     direction: rtl;
-    text-align:right
+    text-align:right;
+    margin: 15px;
 }
 .rw-2nd img{
-    width: 250px;
+    width: 200px;
+}
+.px16{
+    font-size: 16px
+}
+.px22{
+    font-size: 22px;
+    margin-top:20px !important
+}
+.footer-sari{
+    direction: rtl;
+    border-bottom: 2px solid #797979;
+    background: #fafafa
+}
+.rtl-right{
+    direction: rtl;
+    float: right !important;
+}
+.px46{
+        font-size:46px
+}
+.foxpush_copyright{
+    opacity: 0
+}
+.planding{
+    font-size: 22px;
+    font-weight: 900
+}
+.carousel-caption{
+    text-shadow: none !important
+}
+.bgtrans {
+    background:#000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity:0.6;
+}
+.px18{
+    font-size: 18px
+}
+#mazaya h2 {
+    text-align: center;
+}
+
+#mazaya figure {
+    margin: 0 20px;
+}
+
+#mazaya figure img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+    display: table;
+    margin-bottom: 10px !important;
+}
+ #mazaya figure {
+     margin: 0 !important;
 }
 @media screen and (max-width: 991px){
     .rw-2nd .col-md-12 h2{
@@ -2614,4 +2644,8 @@ div.panel.show {
     .h1bg{
     background-position-x: 800px;
     }
+    .px46{
+        font-size:30px
+    }
 }
+
